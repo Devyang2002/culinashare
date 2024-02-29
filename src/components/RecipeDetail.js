@@ -43,7 +43,7 @@ function RecipeDetail() {
           return;
         }
 
-        const response = await fetch(`https://culinashare-production.up.railway.app/api/v1/recipes/fetchRecipe/${recipe_id}`);
+        const response = await fetch(`https://culina-share-deha.vercel.app/api/v1/recipes/fetchRecipe/${recipe_id}`);
 
         const data = await response.json();
         const recipeData = data.data;
