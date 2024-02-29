@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/culinashare/static/css/main.a88e5042.css",
+    "main.js": "/culinashare/static/js/main.064ab6ef.js",
+    "static/js/453.796708dd.chunk.js": "/culinashare/static/js/453.796708dd.chunk.js",
+    "static/media/White_Pasta.jpg": "/culinashare/static/media/White_Pasta.115cb223783a1d3b4cd2.jpg",
+    "static/media/noodles.jpg": "/culinashare/static/media/noodles.8baa0544e6561dd31ac5.jpg",
+    "static/media/food3.jpg": "/culinashare/static/media/food3.7f271c9bb042cc288456.jpg",
+    "static/media/dt-bg.png": "/culinashare/static/media/dt-bg.3420b5b511d039c4d107.png",
+    "static/media/food2.jpg": "/culinashare/static/media/food2.9dc1a24ea4d2f0d45953.jpg",
+    "static/media/food1.jpg": "/culinashare/static/media/food1.1641e559193791cf5c09.jpg",
+    "static/media/pasta.jpg": "/culinashare/static/media/pasta.8dade97aae88df47c195.jpg",
+    "static/media/pizza.jpg": "/culinashare/static/media/pizza.a6aa47d069833175d048.jpg",
+    "static/media/book.jpg": "/culinashare/static/media/book.43cba6cd21fe3d0106b2.jpg",
+    "index.html": "/culinashare/index.html",
+    "main.a88e5042.css.map": "/culinashare/static/css/main.a88e5042.css.map",
+    "main.064ab6ef.js.map": "/culinashare/static/js/main.064ab6ef.js.map",
+    "453.796708dd.chunk.js.map": "/culinashare/static/js/453.796708dd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a88e5042.css",
+    "static/js/main.064ab6ef.js"
+  ]
+}
