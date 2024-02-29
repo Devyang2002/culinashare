@@ -78,7 +78,7 @@ function Home() {
     }
 
     try {
-      const response = await fetch(`${process.env.REACT_APP_BASE_URL}/recipes/${recipe_id}/markFavorite/${user_id}`, {
+      const response = await fetch(`https://culinashare-production.up.railway.app/api/v1/recipes/${recipe_id}/markFavorite/${user_id}`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -107,7 +107,7 @@ function Home() {
 
     const fetchRecipes = async () => {
       try {
-        const response = await fetch(`${process.env.REACT_APP_BASE_URL}/recipes/fetchAll`); 
+        const response = await fetch(`https://culinashare-production.up.railway.app/api/v1/recipes/fetchAll`); 
 
         const data = await response.json();
         const recipeData = data.data;

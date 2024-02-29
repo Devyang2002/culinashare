@@ -23,7 +23,7 @@ const SignUp = () => {
 
     console.log('Before fetch');
     try {
-      const response = await fetch(`${process.env.REACT_APP_BASE_URL}/users/create`, {
+      const response = await fetch(`https://culinashare-production.up.railway.app/api/v1/users/create`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

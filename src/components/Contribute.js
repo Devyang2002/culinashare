@@ -33,7 +33,7 @@ function Contribute() {
     e.preventDefault();
 
     try {
-      const response = await fetch(`${process.env.REACT_APP_BASE_URL}/recipes/create`, {
+      const response = await fetch("https://culinashare-production.up.railway.app/api/v1/recipes/create", {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
