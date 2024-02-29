@@ -1,0 +1,42 @@
+.favorites{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.myfavorite_heading{
+    width: 220px;
+    height: 50px;
+    border: 2px solid;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px #9b5a06;
+    margin-bottom: 2vh;
+    display: flex;
+    justify-content: center;
+}
+
+.myfavorite_heading > h2{
+    color: #9b5a06;
+    border-radius: 20px;
+
+
+}
+
+.allFavorites{
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.loadingcontainer{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh; 
+  background-color:transparent;
+}

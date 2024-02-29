@@ -1,0 +1,12 @@
+.w-100{
+    width: 40vw!important;
+    height: 40vh!important;
+}
+
+@media(max-width:1000px){
+    .w-100{
+        width: 100vw!important;
+        height: 50vh!important;
+    }
+}
+

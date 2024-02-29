@@ -1,0 +1,127 @@
+.tabs{
+  display: flex;
+  margin-left: 10vw;
+}
+
+.tabs > button{
+        margin-top: 3vh;
+        width: 12vw;
+        height: 6vh;
+        background-color: #ffae42;
+        color: #9b5a06;
+        font-weight: 700;
+        border-radius: 20px;
+        box-shadow: 0px 0px 10px 0px #ffe99b;
+        cursor: pointer;
+        margin-right: 4vw;
+}
+
+.recipes{
+  /* display: grid;
+  grid-template-columns: repeat(3, 0fr); */
+  width: 100vw;
+    height: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.recipesall{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.heading{
+  display: flex;
+  justify-content: center;
+}
+
+#search_icon{
+  font-size: 24px;
+  margin-left: 5px;
+}
+
+.searchbar
+{
+  width: 400px;
+  height: 2.5rem;
+  border: 2px solid #9b5a06;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin: auto;
+}
+#inputt{
+  margin-top: 10px;
+  width: 350px;
+  height: 1.5rem;
+  border: none;
+  outline: none;
+}
+
+.class12{
+      background-color: transparent;
+      width: 28%;
+      position: absolute;
+      right: 12vw;
+      margin-top: 50px;
+      margin-left: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.class12 > h1 {
+  background-color: transparent;
+  box-shadow: 0px 0px 10px 0px #ffe99b;
+}
+.class1{
+  display: flex;
+}
+
+.class11{
+  margin-left: 2vw;
+}
+
+.tabs > button:hover{
+  box-shadow: 0px 0px 50px 0px #b6982c;
+}
+
+.form_selector{
+  background-color: #ffe99b;
+  margin-top: 2vh;
+  width: 80vw;
+  text-align: center;
+}
+
+.category_tab{
+  display: flex;
+  justify-content: center;
+}
+
+@media(max-width:1700px){
+        .recipes{
+          display: flex;
+          flex-wrap: wrap;
+        }
+}
+
+@media(max-width:1000px){
+  .class11{
+    margin-top: 2vh;
+    width: 99vw;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .class12{
+    display: none;
+  }
+
+
+}

@@ -1,0 +1,20 @@
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.form_selector{
+    background-color: #ffe99b;
+    text-align: center;
+    width: auto;
+  }
