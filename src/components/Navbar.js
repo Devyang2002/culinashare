@@ -31,7 +31,7 @@ function Navbar() {
     if(user_id){
       return(
        <ul className={mobileMenuOpen ? 'active' : ''}>
-            <Link to="/"className={location.pathname === '/home' ? 'active' : ''}><li onClick={closeMobileMenu}>Home</li></Link>
+            <Link to="/culinashare"className={location.pathname === '/home' ? 'active' : ''}><li onClick={closeMobileMenu}>Home</li></Link>
             <Link to="/myrecipes"className={location.pathname === '/myrecipes' ? 'active' : ''}><li onClick={closeMobileMenu}>My Recipes</li></Link>
             <Link to="/addrecipe"className={location.pathname === '/addrecipe' ? 'active' : ''}><li onClick={closeMobileMenu}>Contribute</li></Link>
             <Link to="/favorites"className={location.pathname === '/favorites' ? 'active' : ''}><li onClick={closeMobileMenu}>Favorites</li></Link>
@@ -48,7 +48,7 @@ function Navbar() {
     else{
       return(
       <ul className={mobileMenuOpen ? 'active' : ''}>
-      <Link to="/"className={location.pathname === '/home' ? 'active' : ''}><li onClick={closeMobileMenu}>Home</li></Link>
+      <Link to="/culinashare"className={location.pathname === '/home' ? 'active' : ''}><li onClick={closeMobileMenu}>Home</li></Link>
       <Link to="/myrecipes"className={location.pathname === '/myrecipes' ? 'active' : ''}><li onClick={closeMobileMenu}>My Recipes</li></Link>
       {/* <Link to="/favorites"className={location.pathname === '/favorites' ? 'active' : ''}><li onClick={closeMobileMenu}>Favorites</li></Link> */}
       <Link to="/aboutus"className={location.pathname === '/aboutus' ? 'active' : ''}><li onClick={closeMobileMenu}>About Us</li></Link>

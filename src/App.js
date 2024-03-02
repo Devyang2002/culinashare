@@ -16,7 +16,7 @@ export const UserContext = createContext();
 const Routing = () =>{
   return(
     <Routes>
-      <Route exact path='/' element={<Home/>} />
+      <Route exact path='/culinashare' element={<Home/>} />
       <Route exact path='/myrecipes' element={<Recipes/>} />
       <Route exact path='/favorites' element={<Favorites/>} />
       <Route exact path='/aboutus' element={<AboutUs/>} />
