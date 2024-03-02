@@ -36,7 +36,7 @@ function Navbar() {
             <Link to="/addrecipe"className={location.pathname === '/addrecipe' ? 'active' : ''}><li onClick={closeMobileMenu}>Contribute</li></Link>
             <Link to="/favorites"className={location.pathname === '/favorites' ? 'active' : ''}><li onClick={closeMobileMenu}>Favorites</li></Link>
             <Link to="/aboutus"className={location.pathname === '/aboutus' ? 'active' : ''}><li onClick={closeMobileMenu}>About Us</li></Link>
-            <Link to="/"className={location.pathname === '/' ? 'active' : ''}><button id="logout_button" style={{textDecoration:'none',}} onClick={logoutfn}>Logout</button></Link>
+            <Link to="/culinashare"className={location.pathname === '/home' ? 'active' : ''}><button id="logout_button" style={{textDecoration:'none',}} onClick={logoutfn}>Logout</button></Link>
             {/* <a href="/"><li>Home</li></a>
             <a href="/myrecipes"><li>My Recipes</li></a>
             <a href="/favorites"><li>Favorites</li></a>
