@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/culinashare/static/css/main.a88e5042.css",
-    "main.js": "/culinashare/static/js/main.dd619106.js",
+    "main.js": "/culinashare/static/js/main.ff30d83e.js",
     "static/js/453.796708dd.chunk.js": "/culinashare/static/js/453.796708dd.chunk.js",
     "static/media/White_Pasta.jpg": "/culinashare/static/media/White_Pasta.115cb223783a1d3b4cd2.jpg",
     "static/media/noodles.jpg": "/culinashare/static/media/noodles.8baa0544e6561dd31ac5.jpg",
@@ -14,11 +14,11 @@
     "static/media/book.jpg": "/culinashare/static/media/book.43cba6cd21fe3d0106b2.jpg",
     "index.html": "/culinashare/index.html",
     "main.a88e5042.css.map": "/culinashare/static/css/main.a88e5042.css.map",
-    "main.dd619106.js.map": "/culinashare/static/js/main.dd619106.js.map",
+    "main.ff30d83e.js.map": "/culinashare/static/js/main.ff30d83e.js.map",
     "453.796708dd.chunk.js.map": "/culinashare/static/js/453.796708dd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a88e5042.css",
-    "static/js/main.dd619106.js"
+    "static/js/main.ff30d83e.js"
   ]
 }
