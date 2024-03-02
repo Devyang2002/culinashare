@@ -83,8 +83,8 @@ function Home() {
         headers: {
           'Content-Type': 'application/json',
           'Accept': 'application/json'
-        },
-        credentials: "include",
+        }
+        //credentials: "include",
       });
       
       const data = await response.json();
