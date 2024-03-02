@@ -82,6 +82,7 @@ function Home() {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
+          'Accept': 'application/json'
         },
         credentials: "include",
       });
