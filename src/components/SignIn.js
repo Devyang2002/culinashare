@@ -43,7 +43,7 @@ const SignIn = () => {
 
         dispatch({type:"USER", payload:true});
         alert('User signed in successfully');
-        navigate('/');
+        navigate('/culinashare');
       } else {
         console.error(data.message);
         // Handle sign-in errors
